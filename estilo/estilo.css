@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(75, 0, 0);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+.perfil{
+    position: absolute;
+    top: 20%;
+    left: 15%
+}
+img{
+    width: 300px;
+    height: 300px;
+    display: flex;
+
+}
+.perfil figcaption{
+    text-align: center; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10%;
+}
+.nome{
+    font-size: 40px;
+    color: white;
+}
+.espec{
+    font-size: 25px;
+    color: white;
+}
+.email{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: #ffffff;
+    padding: 20px 40px;
+    margin-top: 30%;
+    margin-left: 20%;
+    font-size: 1em;
+    cursor: pointer;
+}
+.about{
+    float: left;
+    text-align: center;
+    font-size: 60px;
+    width: 45%;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.descricao{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+.resumo{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 20px 50px;
+    margin-right: 5%;
+    margin-top: 15%;
+    font-size: 0.3em;
+    cursor: pointer;
+}
+.portifolio{
+    background-color: black;
+    color: white;
+    padding: 20px 50px;
+    margin-left: 5%;
+    margin-top: 15%;
+    font-size: 0.3em;
+    cursor: pointer;
+}
+.icones{
+    padding-top: 10%;
+    margin-left: 15%;   
+}
+.facebook{
+display: inline-block;    
+    width: 32px;
+    height: 32px;
+    border-radius: 25%;
+    margin-left: 5%;
+}
+.linkedin{
+    display: inline-block;  
+    width: 32px;
+    height: 32px;   
+    border-radius: 25%;
+    margin-left: 5%;
+
+}
+.twitter{
+    display: inline-block;  
+    width: 32px;
+    height: 32px;
+    border-radius: 25%;
+    margin-left: 5%;
+    background-color: rgb(75, 0, 0);
+}
+.instagram{
+    display: inline-block;  
+    width: 32px;
+    height: 32px;
+    border-radius: 25%;
+    margin-left: 5%;
+}
