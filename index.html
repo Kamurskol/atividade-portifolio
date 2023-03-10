@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site de portifólio</title>
     <link rel="stylesheet" href="estilo/estilo.css ">
+    <link rel="icon" type="icone" href="imagens/icone.ico">
 </head>
+
 <body>
+
 <div class="perfil">
     <img src="imagens/pfp.jpg" alt="Exemplo de foto de perfil">
      <figcaption class="nome">&lt;MARCOS.&gt;</figcaption>
     <figcaption class="espec"> Web Dev</figcaption>
-    <button class="email">Envie um email</button>
+    <button class="email" onclick="cliqueEmail()">Enviar email</button>
 
     <div class="icones">
         <img class="facebook" src="imagens/facebook.jpg" alt="ícone do Facebook">
@@ -23,14 +26,36 @@
 
 </div>
 
+
 <div class="about">&lt;Sobre mim/&gt;
     <p class="descricao">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eligendi accusantium velit modi? Est eos quisquam libero alias ad ut, voluptatem soluta nihil perferendis tenetur magnam, voluptas, ducimus labore itaque.
     </p>
-    <button class="resumo" onclick="">Resumo</button>
-    <button class="portifolio">Portifólio</button>
+    <button class="resumo" onclick="cliqueResumo()">Resumo</button>
+    <button class="portifolio" onclick="cliquePortifolio()">Portifólio</button>
 </div>
 
+
+<div>
+    <script>
+        function cliqueEmail(){
+            var a = window.document.getElementsByClassName('email')
+            window.alert('Aqui você seria redirecionado para o email.')
+        }
+    </script>
+    <script>
+        function cliqueResumo(){
+            var b = window.document.getElementsByClassName('resumo')
+            window.alert('Esse botão redirecionaria para a página de resumo, mas essa não foi criada')
+        }
+    </script>
+    <script>
+        function cliquePortifolio(){
+            var c = document.getElementsByClassName('portifolio')
+            window.alert('Ao apertar esse botão você seria redirecionado para o portifólio completo')
+        }
+    </script>
+</div>
 
 </body>
 </html>
