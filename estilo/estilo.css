@@ -85,6 +85,7 @@ display: inline-block;
     width: 32px;
     height: 32px;
     border-radius: 25%;
+    cursor: pointer;
 }
 .linkedin{
     display: inline-block;  
@@ -92,6 +93,7 @@ display: inline-block;
     height: 32px;   
     border-radius: 25%;
     margin-left: 5%;
+    cursor: pointer;
 
 }
 .twitter{
@@ -101,6 +103,7 @@ display: inline-block;
     border-radius: 25%;
     margin-left: 5%;
     background-color: rgb(75, 0, 0);
+    cursor: pointer;
 }
 .instagram{
     display: inline-block;  
@@ -108,4 +111,5 @@ display: inline-block;
     height: 32px;
     border-radius: 25%;
     margin-left: 5%;
+    cursor: pointer;
 }
